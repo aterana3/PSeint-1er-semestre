@@ -466,8 +466,11 @@ Funcion contarPalabras(frase)
 	contador = 1
 	lon=Longitud(frase)
 	para pos=1 Hasta lon Con Paso 1 Hacer
-		si Subcadena(frase,pos,pos) = " " Entonces
-			contador=contador+1
+		Si pos == 1 && Subcadena(frase,1,1) = " " Entonces
+			contador = contador - 1
+		FinSi
+		Si Subcadena(frase,pos,pos) = " " && Subcadena(frase,pos+1,pos+1) <> " " Entonces
+			contador = contador + 1
 		FinSi
 	FinPara
 	Escribir "La frase tiene ",contador," palabras"
