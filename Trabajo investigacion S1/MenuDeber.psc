@@ -163,7 +163,7 @@ Funcion calcularCantidadSumaProm(limite)
 FinFuncion
 //Serie promedio de rango de numeros
 Funcion promedio(limite)
-	res=0
+	res=0.0
 	cont=0
 	Para i<- 1 Hasta limite Con Paso 1 Hacer
 		Escribir "Ingrese los promedio"
@@ -173,8 +173,12 @@ Funcion promedio(limite)
 			cont=cont+1
 		FinSi
 	Fin Para
-	res2<-res/cont
-	Escribir "Su promedio es: " , res2
+	Si resp >= 0 Entonces
+		res<-res/cont
+		Escribir "Su promedio es: " , res2
+	SiNo
+		Escribir "No hay promedio que comprobar."
+	FinSi
 Fin Funcion
 //Validar que un numero sea positivo
 Funcion validadPositivo(num)
