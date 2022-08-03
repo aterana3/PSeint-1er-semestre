@@ -550,7 +550,7 @@ Algoritmo Menu
 	// presentar el menor de 3 numeros ingresados
 	menuNumeros[5] = "5)Mayor de tres numeros"
 	// La despensa "El Baraton", a todas las ventas que pasen de $100,
-	//se les aplicará un  descuento del 10%, a  todo los demás se les aplicará sólo el 5% 
+	//se les aplicar? un  descuento del 10%, a  todo los dem?s se les aplicar? s?lo el 5% 
 	// luego del recargo del iva del 12%
 	menuNumeros[6] = "6)Comprar productos"
 	// Ingresar el nombre,horas trabajadas, valor hora, horas50 y horas100 de sobretiempo
@@ -563,7 +563,7 @@ Algoritmo Menu
 	menuNumeros[7] = "7)Pago de Sueldos"
 	// dada dos notas calcular el promedio y presentar el mensaja "Aproboado" si el promedio
 	// mayor 70 y reprobado si es menor que 70
-	menuNumeros[8] = "9)Notas de Alumnos"
+	menuNumeros[8] = "8)Notas de Alumnos"
 	// dado un numero indicar si es positivo o negativo
 	menuNumeros[9] = "9)Positivo/Negativo"
 	// dado un numero indicar si es par o impar
