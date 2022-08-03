@@ -9,7 +9,7 @@ Funcion opc = presentarMenu(titulo,opciones,lim)
 	Escribir "Elija opcion[1...",lim,"]: "
 	Leer opc
 FinFuncion
-// 3-Calcula el proceso matematico de dos numeros dada su operacion
+//Calcula el proceso matematico de dos numeros dada su operacion
 Funcion calculadora(operacion,num1,num2)
 	Si operacion = "+" Entonces
 		Escribir num1,"+",num2,"=",num1+num2
@@ -508,10 +508,9 @@ Funcion comparar(cad1,cad2)
 FinFuncion
 //Indicar si una cadena es palindroma
 Funcion palindromo(palabra)
-	Definir pos,lon,pal Como Entero
 	long=Longitud(palabra)	
 	pos=1;pal=0
-	Mientras pos<lon Hacer
+	Mientras pos<long Hacer
 		si subcadena(palabra,pos,pos) <> Subcadena(palabra,long,long) Entonces
 			pal=pal+1
 		FinSi
