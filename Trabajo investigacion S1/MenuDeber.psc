@@ -678,6 +678,7 @@ Algoritmo Menu
 							Leer num2
 							calculadora("+",num1,num2)
 							Esperar 3 Segundos
+							Borrar Pantalla
 						"2":
 							Escribir "Sumar o Restar"
 							Escribir "Ingrese Numero1: " Sin Saltar
@@ -690,6 +691,7 @@ Algoritmo Menu
 								calculadora("-",num2,num1)
 							FinSi
 							Esperar 2 Segundos
+							Borrar Pantalla
 						"3":
 							Escribir "Calculadora"
 							Escribir "Ingrese Operacion[+,-,*,/,%,^]: " Sin Saltar
@@ -701,6 +703,7 @@ Algoritmo Menu
 							calculadora(ope,num1,num2)
 							Escribir "Espere por favor, Regresando Al Menu..."
 							Esperar 2 Segundos
+							Borrar Pantalla
 						"4":
 							Escribir "Mayor 2 numeros"
 							Escribir "Ingrese Numero1: " Sin Saltar
@@ -709,6 +712,7 @@ Algoritmo Menu
 							Leer num2
 							Escribir "El numero mayor es: ",mayor2Numeros(num1 num2);
 							Esperar 2 Segundos
+							Borrar Pantalla
 						"5":
 							Escribir "Mayor 3 numeros"
 							Escribir "Ingrese Numero1: " Sin Saltar
@@ -721,12 +725,14 @@ Algoritmo Menu
 							resp = mayor2Numeros(resp,num3);
 							Escribir "El numero mayor es: ",resp;
 							Esperar 2 Segundos
+							Borrar Pantalla
 						"6":
 							Escribir "Comprar productos"
 							Escribir "Ingrese valor de la compra"
 							Leer num1
 							compraConDescuentoYIVA(num1);
 							Esperar 2 Segundos
+							Borrar Pantalla
 						"7":
 							Escribir "Pago de Sueldos"
 							Escribir "Ingrese nombre"
@@ -737,6 +743,7 @@ Algoritmo Menu
 							Leer num2
 							pagosTabajadorXHoras(txt,num1,num2);
 							Esperar 2 Segundos
+							Borrar Pantalla
 						"8":
 							Escribir "Notas de Alumnos"
 							Escribir "Ingrese Nota1: " Sin Saltar
@@ -745,6 +752,7 @@ Algoritmo Menu
 							Leer num2
 							notas(num1,num2)
 							Esperar 2 Segundos
+							Borrar Pantalla
 						"9":
 							Escribir "Positivo/Negativo"
 							Escribir "Ingrese Numero: " Sin Saltar
@@ -756,6 +764,7 @@ Algoritmo Menu
 							FinSi
 							Escribir "Espere por favor, Regresando Al Menu..."
 							Esperar 2 Segundos
+							Borrar Pantalla
 						"10":
 							Escribir "Par e Impar"
 							Escribir "Ingrese Numero: " Sin Saltar
@@ -767,6 +776,7 @@ Algoritmo Menu
 							FinSi
 							Escribir "Espere por favor, Regresando Al Menu..."
 							Esperar 2 Segundos
+							Borrar Pantalla
 						"11":
 							Escribir "Multiplo de cualquier Numero"
 							Escribir "Ingrese Numero1: " Sin Saltar
@@ -779,12 +789,14 @@ Algoritmo Menu
 								Escribir "El numero ",num1," no es multiplo  de ",num2
 							FinSi
 							Esperar 2 Segundos
+							Borrar Pantalla
 						"12":
 							Escribir "El Mayor y Menor de una secuencia de numeros"
 							Escribir "Ingrese limite de secuencia: " Sin Saltar
 							Leer limite
 							mayor_Y_menor_secuencia(limite);
 							Esperar 2 Segundos
+							Borrar Pantalla
 						"13":
 							Escribir "Positivos de una secuencia de numeros"
 							Escribir "Ingrese limite de secuencia: " Sin Saltar
@@ -799,6 +811,7 @@ Algoritmo Menu
 							FinMientras
 							Escribir "Hay un total de: ",contador," numeros positivos."
 							Esperar 2 Segundos
+							Borrar Pantalla
 						"14":
 							Escribir "Suma de los multiplos de cinco de una serie de numeros"
 							Escribir "Ingrese limite de secuencia: " Sin Saltar
@@ -814,6 +827,7 @@ Algoritmo Menu
 							FinMientras
 							Escribir "La suma de todos los multiplos de 5 es: ",resp
 							Esperar 2 Segundos
+							Borrar Pantalla
 						"15":
 							Escribir "Generar y presentar los Numeros pares del 2 a N"
 							Escribir "Ingrese limite de secuencia: " Sin Saltar
@@ -824,24 +838,28 @@ Algoritmo Menu
 								FinSi
 							FinPara
 							Esperar 2 Segundos
+							Borrar Pantalla
 						"16":
 							Escribir "Cantidad, Suma y Promedio de numeros negativos de una serie"
 							Escribir "Ingrese limite de secuencia: " Sin Saltar
 							Leer limite
 							calcularCantidadSumaProm(limite);
 							Esperar 2 Segundos
+							Borrar Pantalla
 						"17":
 							Escribir "Serie promedio de rango de numero"
 							Escribir "Cuantos numeros desea ingresar"
 							Leer num
 							promedio(num)
 							Esperar 2 Segundos
+							Borrar Pantalla
 						"18":
 							Escribir "Validar que un numero sea positivo"
 							Escribir "Ingrese un numero"
 							Leer num1
 							validadPositivo(num1)
 							Esperar 2 Segundos
+							Borrar Pantalla
 						"19":
 							Escribir "Base y exponente"
 							Escribir "Ingrese un numero para la base"
@@ -850,6 +868,7 @@ Algoritmo Menu
 							Leer num2
 							base_y_exponente(num1,num2)
 							Esperar 2 Segundos
+							Borrar Pantalla
 						"20":
 							Escribir "Serie factoriales"
 							num1 = 1
@@ -861,12 +880,15 @@ Algoritmo Menu
 								FinSi
 							FinMientras
 							Esperar 2 Segundos
+							Borrar Pantalla
 						"21":
 							Escribir "Regresando Al Menu Principal..."
 							Esperar 1 Segundos
+							Borrar Pantalla
 						De Otro Modo:
 							Escribir "Opcion Incorrecta"
 							Esperar 1 Segundos
+							Borrar Pantalla
 					Fin Segun
 				Fin Mientras
 			"2":
@@ -881,12 +903,14 @@ Algoritmo Menu
 							Leer num1
 							digitos(num1)
 							Esperar 2 Segundos
+							Borrar Pantalla
 						"2":
 							Escribir "Convertir de base 2 a base 10 "
 							Escribir "Ingrese numero en binario"
 							Leer num1
 							Escribir "Su numero a base 10 es: ",binarioADecimal(num1)
 							Esperar 2 Segundos
+							Borrar Pantalla
 						"3":
 							Escribir "Convertir a base 2 a base 16 pasando por base 10 "
 							Definir binario como Entero
@@ -895,24 +919,28 @@ Algoritmo Menu
 							Escribir "El numero en decimal(base10) es: ",binarioADecimal(num1)
 							Escribir "El numero en decimal(base16) es: ",decimalAHexadecimal(binarioADecimal(num1))
 							Esperar 2 Segundos
+							Borrar Pantalla
 						"4":
 							Escribir "Serie de fibonacci hasta N"
 							Escribir "Ingrese un numero hasta donde desea llegar"
 							Leer num1
 							fibonacci(num1)
 					        Esperar 4 Segundos
+							Borrar Pantalla
 						"5":
 							Escribir "Divisores de un numero"
 							Escribir "ingresar un numero"
 							leer num1
 							divisores(num1)
 					        Esperar 4 Segundos
+							Borrar Pantalla
 						"6":
 							Escribir "Numero perfecto"
 							Escribir "ingresar un numero"
 							leer num1
 							perfecto(num1)
 					        Esperar 4 Segundos
+							Borrar Pantalla
 						"7":
 							Escribir "Ejercicio Numero Primo"
 							Escribir "Ingrese Numero: " Sin Saltar
@@ -924,6 +952,7 @@ Algoritmo Menu
 							Fin Si
 							Escribir "Espere por favor, Regresando Al Menu..."
 							Esperar 2 Segundos
+							Borrar Pantalla
 						"8":
 							Escribir "Verificar si dos numeros son Amigos"
 							Escribir "Ingrese Numero1: " Sin Saltar
@@ -932,6 +961,7 @@ Algoritmo Menu
 							Leer num2
 							numerosAmigos(num1,num2)
 							Esperar 2 Segundos
+							Borrar Pantalla
 						"9":
 							Escribir "Ejercicio Primos Gemelos"
 							Escribir "Ingrese Numero1: " Sin Saltar
@@ -945,6 +975,7 @@ Algoritmo Menu
 							Fin Si
 							Escribir "Espere por favor, Regresando Al Menu..."
 							Esperar 2 Segundos
+							Borrar Pantalla
 						"10":
 							Escribir "De una serie de numeros cuantos son Primos"
 							Escribir "Ingrese limite de la serie: "
@@ -960,12 +991,15 @@ Algoritmo Menu
 							FinMientras
 							Escribir "Hay un total de: ", contador,". De numeros primos"
 							Esperar 2 Segundos
+							Borrar Pantalla
 						"11":
 							Escribir "Regresando Al Menu Principal..."
 							Esperar 1 Segundos
+							Borrar Pantalla
 						De Otro Modo:
 							Escribir "Opcion Incorrecta"
 							Esperar 3 Segundos
+							Borrar Pantalla
 					Fin Segun
 				Fin Mientras
 			"3":
@@ -980,10 +1014,12 @@ Algoritmo Menu
 							Leer limite
 							ingresarArreglo(arreglo,limite)
 							Esperar 2 Segundos
+							Borrar Pantalla
 						"2":
 							Escribir "Presentar los Valores de un Arreglo"
 							presentarArreglo(arreglo,1,limite)
 							Esperar 5 Segundos
+							Borrar Pantalla
 						"3":
 							Escribir "Buscar un dato en un Arreglo"
 							Escribir "Ingrese el dato a buscar en el arreglo"
@@ -995,14 +1031,17 @@ Algoritmo Menu
 								Escribir dato," No se encuentra en el arreglo"
 							Fin Si
 							Esperar 5 Segundos
+							Borrar Pantalla
 						"4":
 							Escribir "Elemento Mayor de un arreglo"
 							Escribir "El elemento mayor del vector es: ",arregloElementoMayor(limite,arreglo);
 							Esperar 5 Segundos
+							Borrar Pantalla
 						"5":
 							Escribir "Copiar los datos de un arreglo en otro invertido"
 							copiaDeVectores(limite,arreglo)
 							Esperar 5 Segundos
+							Borrar Pantalla
 						"6":
 							Escribir "6)Dados los arreglos arreglo1[] y arreglo2[] Sumarlos en al arreglo Suma[]"
 							Escribir "Ingrese cantidad de Elementos:" Sin Saltar
@@ -1011,19 +1050,22 @@ Algoritmo Menu
 							ingresarArreglo(arreglo2,limite)
 							sumarArreglo(limite,arreglo,arreglo2)
 							Esperar 5 Segundos
+							Borrar Pantalla
 						"7":
 							Escribir "Dado N numeros guardar en un arreglo los numeros primos"
 							Escribir "Ingrese cantidad de Elementos:" Sin Saltar
 							Leer limite
 							primosArreglo(limite)
 							Esperar 4 Segundos
+							Borrar Pantalla
 						"8":
 							Escribir "Dadas los datos de un arreglo obtener el promedio de las notas >=> 70"
 							Escribir "Ingrese cantidad de Elementos:" Sin Saltar
 							Leer limite
 							ingresarArreglo(arreglo,limite)
 							notasArreglo(arreglo,limite)
-							Esperar 4 Segundos	
+							Esperar 4 Segundos
+							Borrar Pantalla
 						"9":
 							Escribir "Imprimir cadena caracter por caracter"
 							Escribir "Ingrese frase:" Sin Saltar
