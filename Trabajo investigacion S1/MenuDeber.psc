@@ -162,10 +162,10 @@ Funcion calcularCantidadSumaProm(limite)
 	Escribir "El promedio es: ", prom
 FinFuncion
 //Serie promedio de rango de numeros
-Funcion promedio(num)
+Funcion promedio(limite)
 	res=0
 	cont=0
-	Para i<- 1 Hasta num Con Paso 1 Hacer
+	Para i<- 1 Hasta limite Con Paso 1 Hacer
 		Escribir "Ingrese los promedio"
 		Leer n1
 		Si n1>=100 y n1<=500 Entonces
